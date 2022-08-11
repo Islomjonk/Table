@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.table{
+    border: 0.1px solid rgb(173, 171, 171);
+    margin: auto;
+}
+.table tr td{
+    width: 130px;
+    height: 50px;
+}
+.table tr button{
+    height: 30px;
+}
+.table tr:nth-child(2) td button{
+    background-color: green;
+    color:white;
+    border:none;
+    border-radius: 3px;
+}
+.table tr:nth-child(3) td button{
+    background-color: yellow;
+    color:white;
+    border:none;
+    border-radius: 3px;
+}
+.table tr:nth-child(4) td button{
+    background-color: red;
+    color:white;
+    border:none;
+    border-radius: 3px;
+}
+.table tr:nth-child(5) td button{
+    background-color: green;
+    color:white;
+    border:none;
+    border-radius: 3px;
+}
+.table tr:nth-child(6) td button{
+    background-color: red;
+    color:white;
+    border:none;
+    border-radius: 3px;
+}
+.table tr:nth-child(7) td button{
+    background-color: yellow;
+    color:white;
+    border:none;
+    border-radius: 3px;
+}
+.table tr:nth-child(8) td button{
+    background-color: yellow;
+    color:white;
+    border:none;
+    border-radius: 3px;
+}
+.table tr:nth-child(9) td button{
+    background-color: green;
+    color:white;
+    border:none;
+    border-radius: 3px;
+}
+.table tr:nth-child(even){
+    width: 200px;
+    height: 50px;
+    background-color: #e6e6e6;
+}
+.table tr:nth-child(1) td:nth-child(5){
+    width: 170px;
+    height: 50px;
+}
+.table tr td span{
+    font-weight: 300;
+    font-size: 15px;
+}

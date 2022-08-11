@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.non-body{
+    background: linear-gradient(red, purple);
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+}
+.main{
+    width: 75%;
+    height: 80vh;
+    background-color: aqua;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.table{
+    width: 100%;
+    background-color:#fff;
+    border-style: hidden;
+}
+.table tbody tr td{
+    width: 200px;
+    height: 70px;
+    background-color: aqua;
+    color:#fff;
+}
+.table tbody tr td span{
+    color:#fff;
+    padding-left: 50px;
+}
+.table tbody tr td:nth-child(1){
+    width: 250px;
+    height: 70px;
+    background-color: aqua;
+    color:#fff;
+}
+.table tbody tr td:nth-child(2){
+    width: 220px;
+    height: 70px;
+    background-color: aqua;
+    color:#fff;
+}
